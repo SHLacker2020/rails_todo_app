@@ -1,0 +1,749 @@
+Started GET "/" for ::1 at 2023-02-09 14:49:12 -0500
+
+ActiveRecord::NoDatabaseError - We could not find your database: rails_todo_app_development. Which can be found in the database configuration file located at config/database.yml.
+To resolve this issue:
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+To create your database, run:
+        bin/rails db:create:
+
+Started POST "/__better_errors/6b2f15581933ac0e/variables" for ::1 at 2023-02-09 14:49:12 -0500
+Started POST "/__better_errors/6b2f15581933ac0e/variables" for ::1 at 2023-02-09 14:49:24 -0500
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE DATABASE "rails_todo_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "rails_todo_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE "rails_todo_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (343.9ms)[0m  [1m[35mCREATE DATABASE "rails_todo_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (352.7ms)[0m  [1m[35mCREATE DATABASE "rails_todo_app_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2023-02-09 15:00:50 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/the_shlacker/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/the_shlacker/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 531)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2833)
+
+
+Started GET "/" for ::1 at 2023-02-09 15:05:01 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/the_shlacker/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/the_shlacker/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 531)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2826)
+
+
+Started GET "/posts" for ::1 at 2023-02-09 15:21:04 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/posts" for ::1 at 2023-02-09 15:21:20 -0500
+Processing by PostsController#index as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 780)
+
+
+Started GET "/posts" for ::1 at 2023-02-09 15:21:44 -0500
+
+SyntaxError - syntax error, unexpected string literal, expecting `end'
+    render :index"
+                 ^
+/home/the_shlacker/ubuntu_desktop/rails_apps/rails_todo_app/app/controllers/posts_controller.rb:5: unterminated string meets end of file
+/home/the_shlacker/ubuntu_desktop/rails_apps/rails_todo_app/app/controllers/posts_controller.rb:5: syntax error, unexpected end-of-input, expecting `end':
+  app/controllers/posts_controller.rb:3:in `'
+
+Started POST "/__better_errors/fc6bbe492be15001/variables" for ::1 at 2023-02-09 15:21:44 -0500
+Started GET "/posts" for ::1 at 2023-02-09 15:22:08 -0500
+
+SyntaxError - syntax error, unexpected string literal, expecting `end'
+    render :index"
+                 ^
+/home/the_shlacker/ubuntu_desktop/rails_apps/rails_todo_app/app/controllers/posts_controller.rb:5: unterminated string meets end of file
+/home/the_shlacker/ubuntu_desktop/rails_apps/rails_todo_app/app/controllers/posts_controller.rb:5: syntax error, unexpected end-of-input, expecting `end':
+  app/controllers/posts_controller.rb:3:in `'
+
+Started POST "/__better_errors/65cae2e5fe31bf28/variables" for ::1 at 2023-02-09 15:22:08 -0500
+Started GET "/posts" for ::1 at 2023-02-09 15:22:10 -0500
+
+SyntaxError - syntax error, unexpected string literal, expecting `end'
+    render :index"
+                 ^
+/home/the_shlacker/ubuntu_desktop/rails_apps/rails_todo_app/app/controllers/posts_controller.rb:5: unterminated string meets end of file
+/home/the_shlacker/ubuntu_desktop/rails_apps/rails_todo_app/app/controllers/posts_controller.rb:5: syntax error, unexpected end-of-input, expecting `end':
+  app/controllers/posts_controller.rb:3:in `'
+
+Started POST "/__better_errors/cb61c32f48594280/variables" for ::1 at 2023-02-09 15:22:10 -0500
+Started GET "/posts" for ::1 at 2023-02-09 15:22:19 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 6481)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 7299)
+
+
+Started GET "/posts" for ::1 at 2023-02-09 15:30:21 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 3102)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 3200)
+Completed 500 Internal Server Error in 3ms (Allocations: 3968)
+
+
+
+NoMethodError - undefined method `each' for nil:NilClass
+'.freeze; @posts.each do |post| 
+                ^^^^^:
+  app/views/posts/index.html.erb:3
+  app/controllers/posts_controller.rb:4:in `index'
+
+Started POST "/__better_errors/da68e98f821c2dc0/variables" for ::1 at 2023-02-09 15:30:21 -0500
+Started GET "/posts" for ::1 at 2023-02-09 15:30:40 -0500
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 2514)
+
+
+
+NameError - uninitialized constant PostsController::Post
+    @posts = Post.all
+             ^^^^:
+  app/controllers/posts_controller.rb:3:in `index'
+
+Started POST "/__better_errors/2251cd546cfee90c/variables" for ::1 at 2023-02-09 15:30:40 -0500
+Started GET "/posts" for ::1 at 2023-02-09 15:32:46 -0500
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 0ms (Allocations: 644)
+
+
+
+SyntaxError - syntax error, unexpected `end':
+  app/models/post.rb:8:in `'
+  app/controllers/posts_controller.rb:4:in `index'
+
+Started POST "/__better_errors/8d12d4b2c02b3890/variables" for ::1 at 2023-02-09 15:32:46 -0500
+Started GET "/posts" for ::1 at 2023-02-09 15:38:24 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 5869)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 5981)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 8318)
+
+
+
+NameError - undefined local variable or method `search_path' for #<ActionView::Base:0x00000000004ad8>
+        '.freeze;@output_buffer.append=  form_with(url: search_path, method: 'get', local: true) do @output_buffer.safe_append='
+                                                        ^^^^^^^^^^^
+Did you mean?  search_field_tag:
+  app/views/posts/index.html.erb:6
+
+Started POST "/__better_errors/3e6d130fc856ae7a/variables" for ::1 at 2023-02-09 15:38:25 -0500
+Started GET "/posts" for ::1 at 2023-02-09 15:39:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/posts" for ::1 at 2023-02-09 15:41:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/posts" for ::1 at 2023-02-09 15:51:09 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/posts" for ::1 at 2023-02-09 15:51:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/search" for ::1 at 2023-02-09 15:51:47 -0500
+
+SyntaxError - syntax error, unexpected local variable or method, expecting ')'
+      url,
+      ^~~
+/home/the_shlacker/ubuntu_desktop/rails_apps/rails_todo_app/app/controllers/posts_controller.rb:26: syntax error, unexpected ')', expecting `end'
+    )
+    ^:
+  app/controllers/posts_controller.rb:21:in `'
+
+Started POST "/__better_errors/6503741d54265e99/variables" for ::1 at 2023-02-09 15:51:47 -0500
+Started GET "/search" for ::1 at 2023-02-09 15:52:44 -0500
+
+SyntaxError - syntax error, unexpected local variable or method, expecting ')'
+      url,
+      ^~~
+/home/the_shlacker/ubuntu_desktop/rails_apps/rails_todo_app/app/controllers/posts_controller.rb:26: syntax error, unexpected ')', expecting `end'
+    )
+    ^:
+  app/controllers/posts_controller.rb:21:in `'
+
+Started POST "/__better_errors/74e9b758ab74ac33/variables" for ::1 at 2023-02-09 15:52:44 -0500
+Started GET "/search" for ::1 at 2023-02-09 15:53:08 -0500
+Processing by PostsController#search as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 2953)
+
+
+
+NoMethodError - undefined method `coin_gecko_api' for #<PostsController:0x00000000006680>
+    coin_info = coin_gecko_api(params[:coin])
+                ^^^^^^^^^^^^^^:
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/ae9f2c92d044d46c/variables" for ::1 at 2023-02-09 15:53:08 -0500
+Started GET "/search" for ::1 at 2023-02-09 15:53:45 -0500
+Processing by PostsController#search as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 1160)
+
+
+
+URI::InvalidURIError - bad URI(is not URI?): nil:
+  app/controllers/posts_controller.rb:23:in `request_api'
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/e26ecaaa40231111/variables" for ::1 at 2023-02-09 15:53:45 -0500
+Started GET "/search" for ::1 at 2023-02-09 15:54:00 -0500
+Processing by PostsController#search as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 1030)
+
+
+
+KeyError - key not found: "COIN_GECKO_API_KEY":
+  app/controllers/posts_controller.rb:24:in `request_api'
+  app/controllers/posts_controller.rb:32:in `find_coin'
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/58712431594050dd/variables" for ::1 at 2023-02-09 15:54:00 -0500
+Started GET "/search" for ::1 at 2023-02-09 15:55:33 -0500
+Processing by PostsController#search as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 990)
+
+
+
+KeyError - key not found: "COIN_GECKO_API_KEY":
+  app/controllers/posts_controller.rb:24:in `request_api'
+  app/controllers/posts_controller.rb:32:in `find_coin'
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/5266b17546f47b91/variables" for ::1 at 2023-02-09 15:55:33 -0500
+Started GET "/search" for ::1 at 2023-02-09 15:55:43 -0500
+Processing by PostsController#search as HTML
+Completed 406 Not Acceptable in 131ms (Allocations: 7555)
+
+
+
+ActionController::MissingExactTemplate - PostsController#search is missing a template for request formats: text/html:
+
+Started POST "/__better_errors/5ce263af8c6315f4/variables" for ::1 at 2023-02-09 15:55:43 -0500
+Started GET "/search" for ::1 at 2023-02-09 15:57:35 -0500
+Processing by PostsController#search as HTML
+Completed 406 Not Acceptable in 142ms (Allocations: 5148)
+
+
+
+ActionController::MissingExactTemplate - PostsController#search is missing a template for request formats: text/html:
+
+Started POST "/__better_errors/6c59e95d89394ac2/variables" for ::1 at 2023-02-09 15:57:35 -0500
+Started GET "/" for ::1 at 2023-02-09 15:57:39 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 929)
+  Rendered layout layouts/application.html.erb (Duration: 520.4ms | Allocations: 8673)
+Completed 200 OK in 522ms (Views: 521.3ms | Allocations: 9447)
+
+
+Started GET "/" for ::1 at 2023-02-09 15:58:05 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 795)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2089)
+Completed 200 OK in 3ms (Views: 3.0ms | Allocations: 2800)
+
+
+Started GET "/search" for ::1 at 2023-02-09 15:58:55 -0500
+Processing by PostsController#search as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2441)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 2529)
+Completed 500 Internal Server Error in 240ms (Allocations: 7730)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass
+        <dd>'.freeze;@output_buffer.append=( @country['name'] );@output_buffer.safe_append='</dd>
+                                                     ^^^^^^^^:
+  app/views/posts/search.html.erb:8
+
+Started POST "/__better_errors/e2f3eb3c4fa7b258/variables" for ::1 at 2023-02-09 15:58:55 -0500
+Started GET "/search" for ::1 at 2023-02-09 16:04:32 -0500
+Processing by PostsController#search as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 1.0ms | Allocations: 2163)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 2251)
+Completed 500 Internal Server Error in 150ms (Allocations: 7423)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass
+        <dd>'.freeze;@output_buffer.append=( @coin['name'] );@output_buffer.safe_append='</dd>
+                                                  ^^^^^^^^:
+  app/views/posts/search.html.erb:7
+
+Started POST "/__better_errors/9935fc3471352107/variables" for ::1 at 2023-02-09 16:04:32 -0500
+Started GET "/search" for ::1 at 2023-02-09 16:04:48 -0500
+Processing by PostsController#search as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.2ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1671)
+Completed 200 OK in 95ms (Views: 2.6ms | Allocations: 6879)
+
+
+Started GET "/posts" for ::1 at 2023-02-09 16:05:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+Started GET "/" for ::1 at 2023-02-09 16:05:25 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 4832)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 4911)
+Completed 500 Internal Server Error in 6ms (Allocations: 5173)
+
+
+
+NameError - undefined local variable or method `search' for #<ActionView::Base:0x000000000086d8>
+        '.freeze;@output_buffer.append=  form_with(url: search, method: 'get', local: true) do @output_buffer.safe_append='
+                                                        ^^^^^^
+Did you mean?  search_url:
+  app/views/posts/index.html.erb:5
+
+Started POST "/__better_errors/0ae26f8b15ee5a6d/variables" for ::1 at 2023-02-09 16:05:25 -0500
+Started GET "/" for ::1 at 2023-02-09 16:05:50 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 860)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2154)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2897)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:05:53 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1247)
+Completed 200 OK in 148ms (Views: 2.1ms | Allocations: 6500)
+
+
+Started GET "/" for ::1 at 2023-02-09 16:07:42 -0500
+Processing by PostsController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1290)
+Completed 200 OK in 2ms (Views: 1.8ms | Allocations: 1589)
+
+
+Started GET "/search" for ::1 at 2023-02-09 16:08:01 -0500
+Processing by PostsController#search as */*
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1123)
+Completed 200 OK in 109ms (Views: 1.9ms | Allocations: 6189)
+
+
+Started GET "/" for ::1 at 2023-02-09 16:08:09 -0500
+Processing by PostsController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 405)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1368)
+Completed 200 OK in 2ms (Views: 2.1ms | Allocations: 1590)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:09:21 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2166)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2254)
+Completed 500 Internal Server Error in 155ms (Allocations: 6821)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass
+        <dd>'.freeze;@output_buffer.append=( @coin["rates"] );@output_buffer.safe_append='</dd>
+                                                  ^^^^^^^^^:
+  app/views/posts/search.html.erb:7
+
+Started POST "/__better_errors/8bd5cf9d21f22f4f/variables" for ::1 at 2023-02-09 16:09:22 -0500
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:09:34 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2173)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 2261)
+Completed 500 Internal Server Error in 115ms (Allocations: 7972)
+
+
+
+NoMethodError - undefined method `all' for nil:NilClass
+        <dd>'.freeze;@output_buffer.append=( @coin.all );@output_buffer.safe_append='</dd>
+                                                  ^^^^:
+  app/views/posts/search.html.erb:7
+
+Started POST "/__better_errors/7f3f7c59915a2c6a/variables" for ::1 at 2023-02-09 16:09:35 -0500
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:10:01 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+Completed 500 Internal Server Error in 132ms (Allocations: 6271)
+
+
+
+NoMethodError - undefined method `rates' for nil:NilClass
+    @coin = coin_info["coin"].rates
+                             ^^^^^^:
+  app/controllers/posts_controller.rb:14:in `search'
+
+Started POST "/__better_errors/5d86d389819bcfd2/variables" for ::1 at 2023-02-09 16:10:01 -0500
+Started GET "/search" for ::1 at 2023-02-09 16:11:11 -0500
+Processing by PostsController#search as */*
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.4ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1664)
+Completed 200 OK in 104ms (Views: 3.1ms | Allocations: 7629)
+
+
+Started GET "/search?bitcoin" for ::1 at 2023-02-09 16:11:39 -0500
+Processing by PostsController#search as */*
+  Parameters: {"bitcoin"=>nil}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1119)
+Completed 200 OK in 90ms (Views: 1.9ms | Allocations: 7392)
+
+
+Started GET "/search?coin=bitcoin" for ::1 at 2023-02-09 16:11:55 -0500
+Processing by PostsController#search as */*
+  Parameters: {"coin"=>"bitcoin"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1122)
+Completed 200 OK in 100ms (Views: 2.2ms | Allocations: 5639)
+
+
+Started GET "/search?coin=bitcoin" for ::1 at 2023-02-09 16:11:57 -0500
+Processing by PostsController#search as */*
+  Parameters: {"coin"=>"bitcoin"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1143)
+Completed 200 OK in 115ms (Views: 1.8ms | Allocations: 6199)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:13:09 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+Completed 500 Internal Server Error in 0ms (Allocations: 162)
+
+
+
+ArgumentError - wrong number of arguments (given 0, expected 1):
+  app/controllers/posts_controller.rb:34:in `params'
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/7f01c85c03fb0f19/variables" for ::1 at 2023-02-09 16:13:09 -0500
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:13:57 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1415)
+Completed 200 OK in 146ms (Views: 6.8ms | Allocations: 6952)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:14:47 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 1.5ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 1438)
+Completed 200 OK in 100ms (Views: 6.2ms | Allocations: 6436)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:15:17 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1410)
+Completed 200 OK in 147ms (Views: 2.6ms | Allocations: 8117)
+
+
+Started GET "/" for ::1 at 2023-02-09 16:15:21 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 774)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1738)
+Completed 200 OK in 3ms (Views: 2.9ms | Allocations: 2039)
+
+
+Started GET "/search?coin=etc&button=" for ::1 at 2023-02-09 16:15:26 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"etc", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1161)
+Completed 200 OK in 121ms (Views: 2.0ms | Allocations: 5824)
+
+
+Started GET "/search?coin=etc&button=" for ::1 at 2023-02-09 16:16:39 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"etc", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1428)
+Completed 200 OK in 92ms (Views: 2.5ms | Allocations: 6417)
+
+
+Started GET "/search?coin=&button=" for ::1 at 2023-02-09 16:16:44 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1154)
+Completed 200 OK in 117ms (Views: 2.1ms | Allocations: 5823)
+
+
+Started GET "/search?coin=&button=" for ::1 at 2023-02-09 16:17:14 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.4ms | Allocations: 629)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2042)
+Completed 200 OK in 111ms (Views: 2.7ms | Allocations: 6491)
+
+
+Started GET "/search?coin=&button=" for ::1 at 2023-02-09 16:17:36 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 628)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2039)
+Completed 200 OK in 163ms (Views: 2.7ms | Allocations: 8610)
+
+
+Started GET "/search?coin=&button=" for ::1 at 2023-02-09 16:17:37 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 622)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1754)
+Completed 200 OK in 110ms (Views: 2.1ms | Allocations: 6969)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:17:41 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 622)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1763)
+Completed 200 OK in 125ms (Views: 2.2ms | Allocations: 6812)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:18:04 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2046)
+Completed 200 OK in 145ms (Views: 2.7ms | Allocations: 7050)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:18:06 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.5ms | Allocations: 620)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1767)
+Completed 200 OK in 185ms (Views: 3.7ms | Allocations: 7079)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:18:18 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1424)
+Completed 200 OK in 136ms (Views: 3.4ms | Allocations: 5982)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:19:06 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1411)
+Completed 200 OK in 131ms (Views: 2.5ms | Allocations: 8003)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:19:07 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1146)
+Completed 200 OK in 113ms (Views: 2.0ms | Allocations: 6363)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:19:22 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1411)
+Completed 200 OK in 88ms (Views: 2.5ms | Allocations: 6411)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:19:23 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1155)
+Completed 200 OK in 111ms (Views: 2.0ms | Allocations: 6894)
+
+
+Started GET "/search?coin=bitcoin&button=" for ::1 at 2023-02-09 16:19:32 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"bitcoin", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.4ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 2022)
+Completed 200 OK in 135ms (Views: 2.9ms | Allocations: 7026)
+
+
+Started GET "/" for ::1 at 2023-02-09 16:20:14 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 578)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1738)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 2274)
+
+
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-09 16:20:19 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1135)
+Completed 200 OK in 150ms (Views: 1.8ms | Allocations: 5871)
+
+
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-09 16:21:14 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+Completed 500 Internal Server Error in 3ms (Allocations: 3111)
+
+
+
+NameError - undefined local variable or method `coin' for #<PostsController:0x000000000107e8>
+    coin_info = find_coin(coin)
+                          ^^^^
+Did you mean?  config:
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/e8b89f0b58e822ce/variables" for ::1 at 2023-02-09 16:21:14 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-09 16:21:21 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+Completed 500 Internal Server Error in 3ms (Allocations: 3109)
+
+
+
+NameError - undefined local variable or method `coin' for #<PostsController:0x00000000011120>
+    coin_info = find_coin(coin)
+                          ^^^^
+Did you mean?  config:
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/922a9157b371c3cc/variables" for ::1 at 2023-02-09 16:21:21 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-09 16:21:22 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+Completed 500 Internal Server Error in 9ms (Allocations: 3059)
+
+
+
+NameError - undefined local variable or method `coin' for #<PostsController:0x00000000011198>
+    coin_info = find_coin(coin)
+                          ^^^^
+Did you mean?  config:
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/e9b1f874e5640138/variables" for ::1 at 2023-02-09 16:21:22 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-09 16:21:32 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+Completed 500 Internal Server Error in 0ms (Allocations: 156)
+
+
+
+ArgumentError - wrong number of arguments (given 0, expected 1):
+  app/controllers/posts_controller.rb:24:in `find_coin'
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/15297f1bb1e335f5/variables" for ::1 at 2023-02-09 16:21:32 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-09 16:21:42 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+Completed 500 Internal Server Error in 1ms (Allocations: 671)
+
+
+
+JSON::ParserError - 859: unexpected token at '':
+  app/controllers/posts_controller.rb:21:in `request_api'
+  app/controllers/posts_controller.rb:25:in `find_coin'
+  app/controllers/posts_controller.rb:8:in `search'
+
+Started POST "/__better_errors/89f5e82c4803775a/variables" for ::1 at 2023-02-09 16:21:42 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-09 16:21:53 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.6ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 2019)
+Completed 200 OK in 133ms (Views: 2.9ms | Allocations: 7134)
+
+
