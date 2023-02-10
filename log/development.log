@@ -747,3 +747,407 @@ Processing by PostsController#search as HTML
 Completed 200 OK in 133ms (Views: 2.9ms | Allocations: 7134)
 
 
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:15:30 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.9ms | Allocations: 990)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4744)
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.0ms | Allocations: 12949)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:9
+
+Started POST "/__better_errors/39a8cbef9ef0bdba/variables" for ::1 at 2023-02-10 05:15:30 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:16:52 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.7ms | Allocations: 749)
+  Rendered layout layouts/application.html.erb (Duration: 37.5ms | Allocations: 3419)
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 0.0ms | Allocations: 9137)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "tailwind.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:8
+
+Started POST "/__better_errors/54e57f55bc590d94/variables" for ::1 at 2023-02-10 05:16:52 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:16:59 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.7ms | Allocations: 754)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 3434)
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 0.0ms | Allocations: 10260)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "tailwind.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:8
+
+Started POST "/__better_errors/2b62eb2524145aa8/variables" for ::1 at 2023-02-10 05:16:59 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:18:19 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.8ms | Allocations: 990)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4766)
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.0ms | Allocations: 12956)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "tailwind.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:8
+
+Started POST "/__better_errors/3b0b89810be8a07a/variables" for ::1 at 2023-02-10 05:18:19 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:24:01 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.8ms | Allocations: 990)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 4766)
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 0.0ms | Allocations: 12971)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "tailwind.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:8
+
+Started POST "/__better_errors/a234c18c6617cd06/variables" for ::1 at 2023-02-10 05:24:01 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:24:11 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.6ms | Allocations: 749)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 3397)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.0ms | Allocations: 9117)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:9
+
+Started POST "/__better_errors/4de3b37d0dddebfd/variables" for ::1 at 2023-02-10 05:24:11 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:25:59 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.8ms | Allocations: 754)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 3401)
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 0.0ms | Allocations: 8602)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:9
+
+Started POST "/__better_errors/fb18e38d823f5bb3/variables" for ::1 at 2023-02-10 05:25:59 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:26:14 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.5ms | Allocations: 749)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 3420)
+Completed 500 Internal Server Error in 90ms (ActiveRecord: 0.0ms | Allocations: 8599)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "tailwind.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:8
+
+Started POST "/__better_errors/e363b272c20b3167/variables" for ::1 at 2023-02-10 05:26:14 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:26:47 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 3123)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.0ms | Allocations: 8639)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "tailwind.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:8
+
+Started POST "/__better_errors/4d4309aae0e7c37e/variables" for ::1 at 2023-02-10 05:26:47 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:37:34 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.8ms | Allocations: 990)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 4788)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.0ms | Allocations: 12471)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "tailwind.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:8
+
+Started POST "/__better_errors/ed1f4b38f9f834bb/variables" for ::1 at 2023-02-10 05:37:35 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:37:58 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.6ms | Allocations: 749)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 3421)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.0ms | Allocations: 9668)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:9
+
+Started POST "/__better_errors/3719fc49837f7b17/variables" for ::1 at 2023-02-10 05:37:58 -0500
+Started GET "/search?coin=BTC&button=" for ::1 at 2023-02-10 05:41:27 -0500
+Processing by PostsController#search as HTML
+  Parameters: {"coin"=>"BTC", "button"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/search.html.erb within layouts/application
+  Rendered posts/search.html.erb within layouts/application (Duration: 0.2ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2769)
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 0.0ms | Allocations: 8501)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:9
+
+Started POST "/__better_errors/7c01cc81b54f0596/variables" for ::1 at 2023-02-10 05:41:28 -0500
+Started GET "/" for ::1 at 2023-02-10 05:41:34 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 92)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2604)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2925)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:9
+
+Started POST "/__better_errors/0a6c8a0d2205451e/variables" for ::1 at 2023-02-10 05:41:34 -0500
+Started GET "/" for ::1 at 2023-02-10 05:41:41 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2849)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3580)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:10
+
+Started POST "/__better_errors/d7c9e22969811aac/variables" for ::1 at 2023-02-10 05:41:41 -0500
+Started GET "/" for ::1 at 2023-02-10 05:42:29 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2849)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3574)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.html.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:10
+
+Started POST "/__better_errors/2641b6fb1f792809/variables" for ::1 at 2023-02-10 05:42:29 -0500
+Started GET "/" for ::1 at 2023-02-10 05:42:59 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2861)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3586)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:9
+
+Started POST "/__better_errors/72f169730aeddf65/variables" for ::1 at 2023-02-10 05:42:59 -0500
+Started GET "/" for ::1 at 2023-02-10 05:43:00 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 2525)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2775)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:9
+
+Started POST "/__better_errors/bd8c833d9191b50c/variables" for ::1 at 2023-02-10 05:43:00 -0500
+Started GET "/" for ::1 at 2023-02-10 05:44:49 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2825)
+Completed 500 Internal Server Error in 3ms (Allocations: 3541)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:9
+
+Started POST "/__better_errors/1db68da5529fc567/variables" for ::1 at 2023-02-10 05:44:49 -0500
+Started GET "/" for ::1 at 2023-02-10 05:47:00 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2859)
+Completed 500 Internal Server Error in 3ms (Allocations: 3576)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "tailwind.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:8
+
+Started POST "/__better_errors/5ac4472e76b97b35/variables" for ::1 at 2023-02-10 05:47:00 -0500
+Started GET "/" for ::1 at 2023-02-10 05:49:08 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 325)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 4288)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 6638)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "tailwind.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:8
+
+Started POST "/__better_errors/d200dad6e8162ea9/variables" for ::1 at 2023-02-10 05:49:08 -0500
+Started GET "/" for ::1 at 2023-02-10 05:49:20 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 2872)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 3605)
+
+
+
+Sprockets::Rails::Helper::AssetNotFound - The asset "application.css" is not present in the asset pipeline.:
+  app/views/layouts/application.html.erb:10
+
+Started POST "/__better_errors/c639374624007fc5/variables" for ::1 at 2023-02-10 05:49:20 -0500
+Started GET "/" for ::1 at 2023-02-10 05:54:50 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 550.2ms | Allocations: 13730)
+Completed 500 Internal Server Error in 551ms (ActiveRecord: 0.0ms | Allocations: 13983)
+
+
+
+NameError - undefined local variable or method `javascript_importmap_tags' for #<ActionView::Base:0x000000000054d8>
+    '.freeze;@output_buffer.append=( javascript_importmap_tags );@output_buffer.safe_append='
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+Did you mean?  javascript_tag:
+  app/views/layouts/application.html.erb:11
+
+Started POST "/__better_errors/b6d25011c7420d0c/variables" for ::1 at 2023-02-10 05:54:51 -0500
+Started GET "/" for ::1 at 2023-02-10 05:55:01 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1758)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2563)
+
+
+Started GET "/" for ::1 at 2023-02-10 05:55:13 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1749)
+Completed 200 OK in 3ms (Views: 2.8ms | Allocations: 2461)
+
+
+Started GET "/" for ::1 at 2023-02-10 05:55:14 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 1230)
+Completed 200 OK in 25ms (Views: 25.1ms | Allocations: 1458)
+
+
+Started GET "/" for ::1 at 2023-02-10 05:56:14 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1741)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2441)
+
+
+Started GET "/" for ::1 at 2023-02-10 05:56:15 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1229)
+Completed 200 OK in 2ms (Views: 2.1ms | Allocations: 1458)
+
+
+Started GET "/" for ::1 at 2023-02-10 05:56:15 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1232)
+Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 1447)
+
+
+Started GET "/" for ::1 at 2023-02-10 05:56:15 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1232)
+Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 1447)
+
+
+Started GET "/" for ::1 at 2023-02-10 05:56:25 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1743)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2449)
+
+
+Started GET "/" for ::1 at 2023-02-10 05:58:04 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1505)
+Completed 200 OK in 3ms (Views: 2.6ms | Allocations: 2041)
+
+

@@ -17,12 +17,7 @@ class PostsController < ApplicationController
   private
 
   def request_api(url)
-    response = Excon.get(
-      url,
-      headers: {
-        'X-RapidAPI-Host' => URI.parse(url).host,
-      }
-    )
+    response = Excon.get(url)
     return nil if response.status != 200
     JSON.parse(response.body)
   end
